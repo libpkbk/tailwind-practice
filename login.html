@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="w-screen h-screen bg-gray-900 flex items-center justify-center">
+        <div class="elements">
+            <img class="bg-no-repeat absolute top-20 left-60" src="images/backdrop-1.png">
+            <img class="bg-no-repeat absolute bottom-12 right-80" src="images/backdrop-2.png">
+            <img class="bg-no-repeat absolute h-60 top-0 right-32" src="images/backdrop-main.png">
+        </div>
+        <div class="form relative">
+            <h1 class="flex justify-center text-white text-5xl font-extrabold  mb-16">Sign In.</h1>
+            <div class="top-buttons mb-6">
+                <button class="flex justify-center w-96 text-base font-semibold text-white px-8 py-3 mb-6 border-2 border-gray-700 rounded-lg block hover:bg-gray-800">
+                    <span class="mr-2.5">
+                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.456 10.356V13.807H17.248C16.802 16 14.935 17.26 12.456 17.26C9.56855 17.2203 7.24866 14.8682 7.24866 11.9805C7.24866 9.09277 9.56855 6.74073 12.456 6.70099C13.6562 6.69956 14.8195 7.11607 15.746 7.87899L18.346 5.27899C15.3636 2.65706 11.008 2.31983 7.65756 4.45144C4.30711 6.58305 2.76702 10.6712 3.87825 14.4836C4.98947 18.296 8.48495 20.9164 12.456 20.914C16.923 20.914 20.985 17.665 20.985 11.98C20.9781 11.4326 20.911 10.8877 20.785 10.355L12.456 10.356Z" fill="#F9FAFB"/>
+                        </svg> 
+                    </span>Sign in with Google
+                </button>
+    
+                <button class="flex justify-center font-semibold w-96 text-base text-white px-8 py-3 border-2 border-gray-700 rounded-lg hover:bg-gray-800">
+                    <span class="mr-2.5">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.002 12.002C2.00316 16.9214 5.5804 21.11 10.439 21.881V14.892H7.902V12.002H10.442V9.802C10.3285 8.75954 10.6845 7.72059 11.4136 6.96693C12.1428 6.21327 13.1694 5.82301 14.215 5.902C14.9655 5.91412 15.7142 5.98096 16.455 6.102V8.561H15.191C14.7558 8.504 14.3184 8.64772 14.0018 8.95167C13.6852 9.25561 13.5238 9.68688 13.563 10.124V12.002H16.334L15.891 14.893H13.563V21.881C18.8175 21.0506 22.5021 16.2518 21.9475 10.9611C21.3929 5.67037 16.7933 1.73993 11.4808 2.01718C6.16836 2.29443 2.00284 6.68231 2.002 12.002Z" fill="#F9FAFB"/>
+                     </svg>                       
+                    </span>Sign in with facebook
+                </button>
+             </div>
+    
+             <p class="flex justify-center text-white mb-6 text-base font-semibold">or</p>
+    
+            <div class="fields mb-2">
+                <input type="email" class="w-96 text-white bg-transparent border-2 px-8 py-3 border-gray-700 placeholder-white rounded-lg mb-6 focus:placeholder-gray-500  focus:placeholder-gray-500 focus:outline-none focus:border-white block" placeholder="Email address">
+                <input type="password" class="mb-6 w-96 text-white bg-transparent border-2 px-8 py-3 border-gray-700 placeholder-white rounded-lg focus:placeholder-gray-500  focus:placeholder-gray-500 focus:outline-none focus:border-white " placeholder="Password">
+            </div>
+            <button class="flex justify-center w-full  py-3 bg-gradient-to-r from-red-600 to-yellow-500 rounded-lg text-white font-semibold">Sign In</button>
+        </div>
+    </div>
+</body>
+</html>
